@@ -11,7 +11,7 @@ dramatiq.middleware_stack.push(CurrentMessageMiddleware())
 
 @dramatiq.actor()
 def youtube_wrapped_background_task():
-    time.sleep(1000)
+    print('someW ORK')
     return 'youtube_wrapped_background_task_completed'
 
 
